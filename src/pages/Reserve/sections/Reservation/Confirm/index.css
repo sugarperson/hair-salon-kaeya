@@ -1,0 +1,36 @@
+.Reserve .Reservation .Confirm {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.Reserve .Reservation .Confirm .header {
+    font-size: 2.4rem;
+}
+
+.Reserve .Reservation .Confirm .ReserveForm {
+    width: 95%;
+    margin: 0.5rem auto;
+    position: relative;
+}
+
+
+.Reserve .Reservation .Confirm .spacer {
+    margin: 2rem 0;
+}
+
+.Reserve .Reservation .Confirm .TotalFee {
+    display: block;
+    padding: 0 0.5rem;
+    text-align: right;
+    font-size: 1.4rem;
+    border-top: 1px #eee solid;
+}
+
+.Reserve .Reservation .Confirm .submit_button {
+    display: block;
+    margin: 1rem auto;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,16 @@
+.Header {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 3rem;
+}
+
+.Header .salon-name {
+   margin-top: 2rem;
+   font-size: 6.5rem;
+}
+
+.Header .message {
+   font-size: 2rem;
+   margin-bottom: 1.5rem;
+}

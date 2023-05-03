@@ -1,0 +1,14 @@
+.Text{
+   margin: 0;
+}
+
+.Text .header{
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+
+.Text .paragraph{
+   font-size: 1.4rem;
+   margin-left: 1rem;
+   text-indent: .5rem;
+}

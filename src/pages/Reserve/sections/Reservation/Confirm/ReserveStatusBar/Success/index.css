@@ -1,0 +1,36 @@
+.Reserve .Reservation .Confirm .ReserveStatusBar .mask {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background-color: #33333333;
+   z-index: 20;
+}
+
+.Reserve .Reservation .Confirm .ReserveStatusBar .Success {
+   display: block;
+   position: fixed;
+   top: 10%;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 50%;
+   height: 15rem;
+   background-color: #eee;
+   border-radius: 1rem;
+   padding-top: 2rem;
+   text-align: center;
+   font-size: 2.4rem;
+   color: #333;
+   z-index: 30;
+}
+
+.Reserve .Reservation .Confirm .ReserveStatusBar .Success a {
+   font-size: 1.6rem;
+}
+
+.Reserve .Reservation .Confirm .ReserveStatusBar .Success button {
+   display: block;
+   margin: 1rem auto;
+   font-size: 2rem;
+}

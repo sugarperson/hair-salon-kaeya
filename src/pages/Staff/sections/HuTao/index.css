@@ -1,0 +1,20 @@
+.Staff .HuTao {
+   position: relative;
+   margin-bottom: 5rem;
+}
+
+@keyframes staff-hu-tao-slide-in {
+   0% {
+      opacity: 0%;
+      right: 20%;
+   }
+   100% {
+      opacity: 100%;
+      right: 0%;
+   }
+}
+.Staff .HuTao.in {
+   animation-name: staff-hu-tao-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

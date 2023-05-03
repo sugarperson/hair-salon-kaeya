@@ -1,0 +1,49 @@
+/* 共通のスタイル */
+.BlockWithContentAndImageOnLeft {
+   width: 75%;
+   margin: 4rem auto;
+}
+
+.BlockWithContentAndImageOnLeft .block-header {
+   letter-spacing: 0rem;
+   font-size: 5rem;
+   margin: 2rem 0;
+}
+
+/* モバイル画面のスタイル */
+.BlockWithContentAndImageOnLeft .MBBlock {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.BlockWithContentAndImageOnLeft .MBBlock .BlockImageOnLeft {
+   margin: 0 auto;
+   height: 36rem;
+}
+
+.BlockWithContentAndImageOnLeft .MBBlock .BlockContent {
+   margin: 2rem auto 0 auto;
+}
+
+/* PC画面のスタイル */
+.BlockWithContentAndImageOnLeft .PCBlock {
+   margin: 0 3rem;
+   height: fit-content;
+   display: flex;
+   justify-content: space-around;
+   align-items: start;
+   position: relative;
+}
+
+.BlockWithContentAndImageOnLeft .PCBlock .BlockImage {
+   min-width: 24rem;
+   height: 22rem;
+   margin-right: 0rem;
+}
+
+.BlockWithContentAndImageOnLeft .PCBlock .BlockContent {
+   flex: 1;
+   min-width: 30rem;
+   margin-right: 0;
+   margin-left: 3rem;
+}

@@ -1,0 +1,20 @@
+.Menu .ColorAndTreatment {
+   position: relative;
+   margin-top: 8rem;
+}
+
+@keyframes menu-color-and-treatment-slide-in {
+   0% {
+      opacity: 0%;
+      left: 20%;
+   }
+   100% {
+      opacity: 100%;
+      left: 0%;
+   }
+}
+.Menu .ColorAndTreatment.in {
+   animation-name: menu-color-and-treatment-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

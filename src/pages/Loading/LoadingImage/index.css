@@ -1,0 +1,8 @@
+.Loading .container .loading {
+   filter: grayscale(100%);
+   opacity: 0.25;
+}
+
+.Loading .container .loading .IceIcon {
+   height: 8rem;
+}

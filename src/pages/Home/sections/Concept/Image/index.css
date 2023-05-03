@@ -1,0 +1,41 @@
+@keyframes mb-horizontal-stretching {
+   0% {
+      height: 0rem;
+   }
+   100% {
+      height: 36rem;
+   }
+}
+
+.Concept .Content .ConceptImage{
+   width: 75%;
+   margin: 0 auto;
+   animation-name: mb-horizontal-stretching;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}
+
+@keyframes pc-horizontal-stretching {
+   0% {
+      flex: 0;
+   }
+   100% {
+      flex: 0.8;
+   }
+}
+
+.Concept .PCContent .ConceptImage{
+   flex: 0.8;
+   height: 23rem;
+   animation-name: pc-horizontal-stretching;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}
+
+.Concept .ConceptImage .image{
+   height: 100%;
+   width: 100%;
+   margin: 0 auto;
+   object-fit: cover;
+   border-radius: 5px;
+}

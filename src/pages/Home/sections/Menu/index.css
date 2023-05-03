@@ -1,0 +1,19 @@
+.Home .Menu {
+   width: 75%;
+   margin: 4rem auto;
+}
+
+.Home .Menu > .header{
+   font-size: 5rem;
+   margin: 2rem 0;
+}
+
+.Home .Menu .Content {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.Home .Menu .PCContent {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}

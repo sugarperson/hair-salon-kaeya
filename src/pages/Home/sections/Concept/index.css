@@ -1,0 +1,22 @@
+.Home .Concept {
+   position: relative;
+   width: 100%;
+   margin: 0 auto;
+   overflow-x: hidden;
+}
+
+@keyframes home-concept-slide-in {
+   0% {
+      opacity: 0%;
+      right: 20%;
+   }
+   100% {
+      opacity: 100%;
+      right: 0%;
+   }
+}
+.Home .Concept.in {
+   animation-name: home-concept-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

@@ -1,0 +1,21 @@
+.Reserve .WeeklyCalendar .DayOfWeekHeaderCell {
+   padding: 0;
+   width: 6rem;
+}
+
+.Reserve .WeeklyCalendar .DayOfWeekHeaderCell .day-of-week {
+   padding-left: 0.5rem;
+   line-height: 2.4rem;
+   font-size: 1.8rem;
+}
+
+.Reserve .WeeklyCalendar .DayOfWeekHeaderCell .date {
+   letter-spacing: 0;
+   font-size: 1.4rem;
+   line-height: 2rem;
+   border-top: 1px dotted #ffffff;
+}
+
+.Reserve .WeeklyCalendar .DayOfWeekHeaderCell .date.grayouted {
+   color: #666;
+}

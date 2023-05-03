@@ -1,0 +1,20 @@
+.Staff .Yaoyao {
+   position: relative;
+   margin-bottom: 5rem;
+}
+
+@keyframes staff-yao-yao-slide-in {
+   0% {
+      opacity: 0%;
+      left: 20%;
+   }
+   100% {
+      opacity: 100%;
+      left: 0%;
+   }
+}
+.Staff .Yaoyao.in {
+   animation-name: staff-yao-yao-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

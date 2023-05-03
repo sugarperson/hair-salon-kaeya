@@ -1,0 +1,20 @@
+.Staff .Xingqiu {
+   position: relative;
+   margin-bottom: 5rem;
+}
+
+@keyframes staff-xing-qiu-slide-in {
+   0% {
+      opacity: 0%;
+      left: 20%;
+   }
+   100% {
+      opacity: 100%;
+      left: 0%;
+   }
+}
+.Staff .Xingqiu.in {
+   animation-name: staff-xing-qiu-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

@@ -1,0 +1,60 @@
+
+.Reserve .Reservation .Confirm .ConfirmWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Reserve .Reservation .Confirm .ConfirmWindow .film {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Reserve .Reservation .Confirm .ConfirmWindow .ConfirmDialog {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    width: 60%;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: #333;
+    background-color: #eee;
+}
+
+.Reserve .Reservation .Confirm .ConfirmWindow .TotalFee {
+    display: block;
+    padding: 0 0.5rem;
+    text-align: right;
+    font-size: 1.4rem;
+    border-top: 1px #333 solid;
+}
+
+.Reserve .Reservation .Confirm .ConfirmWindow .message {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.Reserve .Reservation .Confirm .ConfirmWindow .confirm {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.Reserve .Reservation .Confirm .ConfirmWindow .button {
+    font-size: 1.2rem;
+    border: 1px #333 solid;
+    border-radius: 4px;
+}
+.Reserve .Reservation .Confirm .ConfirmWindow .button:hover {
+    cursor: pointer;
+}

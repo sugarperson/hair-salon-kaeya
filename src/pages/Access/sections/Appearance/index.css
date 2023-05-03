@@ -1,0 +1,36 @@
+.Access .Appearance {
+   width: 75%;
+   margin: 5rem auto;
+}
+
+@keyframes access-appearance-fade-in {
+   0% {
+      opacity: 0%;
+   }
+   100% {
+      opacity: 100%;
+   }
+}
+.Access .Appearance.in {
+   animation-name: access-appearance-fade-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}
+
+.Access .Appearance .header{
+   letter-spacing: 0rem;
+   font-size: 5rem;
+   margin: 2rem;
+}
+
+.Access .Appearance .image-container {
+   padding: 0 3rem;
+   max-height: 30rem;
+}
+
+.Access .Appearance .message {
+   width: fit-content;
+   margin: 2rem auto 6rem auto;
+   font-size: 2.5rem;
+   letter-spacing: 0rem;
+}

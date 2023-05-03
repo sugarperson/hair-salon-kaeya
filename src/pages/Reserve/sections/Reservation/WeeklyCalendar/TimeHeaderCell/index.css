@@ -1,0 +1,5 @@
+.Reserve .WeeklyCalendar .DayListOfWeek .TimeHeaderCell {
+   padding: 0;
+   width: 12.5rem;
+   font-size: 2rem;
+}

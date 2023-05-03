@@ -1,0 +1,20 @@
+.Menu .CutAndTreatment {
+   position: relative;
+   margin-top: 8rem;
+}
+
+@keyframes menu-cut-and-treatment-slide-in {
+   0% {
+      opacity: 0%;
+      left: 20%;
+   }
+   100% {
+      opacity: 100%;
+      left: 0%;
+   }
+}
+.Menu .CutAndTreatment.in {
+   animation-name: menu-cut-and-treatment-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

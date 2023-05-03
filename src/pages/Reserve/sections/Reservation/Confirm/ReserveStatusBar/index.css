@@ -1,0 +1,4 @@
+.Reserve .Reservation .Confirm .ReserveStatusBar{
+   position: relative;
+   z-index: 100;
+}

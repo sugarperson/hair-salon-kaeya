@@ -1,0 +1,22 @@
+.Home .News {
+   position: relative;
+   width: 100%;
+   margin: 0 auto;
+   overflow-x: hidden;
+}
+
+@keyframes home-news-slide-in {
+   0% {
+      opacity: 0%;
+      left: 20%;
+   }
+   100% {
+      opacity: 100%;
+      left: 0%;
+   }
+}
+.Home .News.in {
+   animation-name: home-news-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

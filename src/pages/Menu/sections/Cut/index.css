@@ -1,0 +1,20 @@
+.Menu .Cut {
+   position: relative;
+   margin-bottom: 5rem;
+}
+
+@keyframes menu-cut-slide-in {
+   0% {
+      opacity: 0%;
+      right: 20%;
+   }
+   100% {
+      opacity: 100%;
+      right: 0%;
+   }
+}
+.Menu .Cut.in {
+   animation-name: menu-cut-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

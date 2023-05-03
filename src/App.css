@@ -1,0 +1,51 @@
+/* 共通設定 */
+*{
+    margin: 0;
+    font-family: 'Lora', serif;
+    /* letter-spacing: 0.5rem; */
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: rgb(7, 55, 99);
+    color: rgb(255, 255, 255);
+}
+
+/* スマートフォン */
+:root{
+    font-size: 5px;
+}
+
+p {
+    font-size: 3rem;
+}
+
+/* タブレット */
+@media (min-width: 520px) {
+    :root {
+        font-size: 10px;
+    }
+    p {
+        font-size: 2.5rem;
+    }
+}
+
+/* PC（1280px未満） */
+@media (min-width: 960px) {
+    :root {
+        font-size: 12px;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+/* PC（1280px以上） */
+@media (min-width: 1280px) {
+    :root {
+        font-size: 16px;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+}

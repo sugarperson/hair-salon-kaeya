@@ -1,0 +1,22 @@
+.Access .Content .sub-title{
+   letter-spacing: 0rem;
+   font-size: 3rem;
+   margin-bottom: 1rem;
+}
+
+.Access .Content .info {
+   list-style: none;
+   display: flex;
+   padding-left: 0;
+   flex-direction: column;
+   border-top: 1px solid #ffffff;
+}
+
+.Access .Content .info .content {
+   padding: 0.5rem 0 0.5rem 1rem;
+   line-height: 2rem;
+   vertical-align: middle;
+   letter-spacing: 0rem;
+   font-size: 1.6rem;
+   border-bottom: 1px solid #ffffff;
+}

@@ -1,0 +1,22 @@
+.Staff .Yaoyao {
+   margin: 0 auto;
+}
+
+.Staff .Yaoyao .job-title {
+   font-size: 3.2rem;
+   margin-bottom: 1rem;
+}
+
+.Staff .Yaoyao .paragraph {
+   margin: 0;
+   letter-spacing: 0.1rem;
+   text-indent: 1rem;
+   font-size: 1.4rem;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+.Staff .Yaoyao .sub-title {
+   margin-top: 1rem;
+   font-size: 1.6rem;
+}

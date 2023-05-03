@@ -1,0 +1,49 @@
+.Reserve .Reservation .WeeklyCalendar {
+   position: relative;
+}
+
+/* ボタンのスタイル */
+.Reserve .Reservation .WeeklyCalendar .PrevButton {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -1.5rem;
+}
+
+.Reserve .Reservation .WeeklyCalendar .NextButton {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: -1.5rem;
+}
+
+.Reserve .Reservation .WeeklyCalendar .PrevButton:hover,
+.Reserve .Reservation .WeeklyCalendar .NextButton:hover {
+   cursor: pointer;
+   user-select: none;
+}
+
+.Reserve .Reservation .WeeklyCalendar .PrevButton .material-symbols-outlined,
+.Reserve .Reservation .WeeklyCalendar .NextButton .material-symbols-outlined {
+   font-size: 8rem;
+}
+
+.Reserve .Reservation .WeeklyCalendar .DayListOfWeek {
+   width: 80%;
+   margin: 0 auto;
+   font-size: 2rem;
+   text-align: center;
+}
+
+/* デーブル全体のスタイル */
+.Reserve .Reservation .WeeklyCalendar table,
+.Reserve .Reservation .WeeklyCalendar th,
+.Reserve .Reservation .WeeklyCalendar tbody,
+.Reserve .Reservation .WeeklyCalendar tr,
+.Reserve .Reservation .WeeklyCalendar td
+{
+   border-spacing: 0;
+   border: 1px solid #ffffff;
+   font-size: 1.5rem;
+   line-height: 2.2rem;
+}

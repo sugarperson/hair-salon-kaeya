@@ -1,0 +1,54 @@
+.Reserve .WeeklyCalendar .FrameCell .shield{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 2;
+}
+
+.Reserve .WeeklyCalendar .FrameCell .ServiceSelection {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 20rem;
+   padding: 1.5rem 1rem 0.5rem 1rem;
+   background-color: #eee;
+   color: #333;
+   z-index: 3;
+   border-radius: 0.5rem;
+}
+
+.Reserve .WeeklyCalendar .FrameCell .ServiceSelection:hover {
+   cursor: cell;
+}
+
+.Reserve .WeeklyCalendar .FrameCell .ServiceSelection .DropDownSelector {
+   margin-bottom: 1rem;
+}
+
+.Reserve .WeeklyCalendar .FrameCell .ServiceSelection .title {
+   letter-spacing: 0.1rem;
+   font-size: 1.5rem;
+   text-align: left;
+}
+
+.Reserve .WeeklyCalendar .FrameCell .ServiceSelection .Label {
+   display: block;
+   width: 100%;
+   letter-spacing: 0.1rem;
+   font-size: 1.4rem;
+   text-align: center;
+   border: 1px #333 solid;
+   background-color: rgb(207,226,243);
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+}
+
+.Reserve .WeeklyCalendar .FrameCell .ServiceSelection .Selector {
+   display: block;
+   width: 100%;
+   letter-spacing: 0.1rem;
+   font-size: 1.2rem;
+}

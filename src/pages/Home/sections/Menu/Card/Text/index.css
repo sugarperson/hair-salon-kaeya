@@ -1,0 +1,44 @@
+.Menu .Text{
+   flex: 0.9;
+   max-width: 75%;
+   margin: .5rem auto 2rem auto;
+}
+
+.Menu .Text .header{
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+
+.Menu .Content .Text .service {
+   font-size: 2.8rem;
+   letter-spacing: 0rem;
+   text-align: center;
+}
+
+.Menu .PCContent .Text .service {
+   font-size: 1.4rem;
+   letter-spacing: 0rem;
+   text-align: center;
+}
+
+.Menu .Content .Text .price {
+   font-size: 1.8rem;
+   letter-spacing: .25rem;
+   text-align: center;
+}
+
+.Menu .Content .Text .price::after {
+   letter-spacing: 0rem;
+   content: "モラ";
+}
+
+.Menu .PCContent .Text .price {
+   font-size: 1rem;
+   letter-spacing: .25rem;
+   text-align: center;
+}
+
+.Menu .PCContent .Text .price::after {
+   letter-spacing: 0rem;
+   content: "モラ";
+}

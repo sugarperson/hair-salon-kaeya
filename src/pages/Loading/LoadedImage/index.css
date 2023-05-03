@@ -1,0 +1,8 @@
+.Loading .container .loaded {
+   height: 100%;
+   opacity: 0.9;
+}
+
+.Loading .container .loaded .IceIcon {
+   height: 8rem;
+}

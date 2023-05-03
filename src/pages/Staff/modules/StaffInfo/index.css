@@ -1,0 +1,35 @@
+.Staff .job-title {
+   font-size: 3rem;
+   margin-bottom: 1rem;
+}
+
+.Staff .brief-comment {
+   margin: 0 0 0 1rem;
+   letter-spacing: 0.1rem;
+   font-size: 1.4rem;
+   line-height: 2.1rem;
+   white-space: pre-line;
+   word-wrap: break-word;
+}
+
+.Staff .charge {
+   text-align: right;
+   margin: 1rem 0;
+   letter-spacing: 0rem;
+   font-size: 1.2rem;
+}
+
+.Staff .profile {
+   margin-top: 1rem;
+   list-style: none;
+   padding-left: 0rem;
+   border-top: 1px solid #ffffff;
+}
+
+.Staff .profile .content {
+   margin: 0.1rem 0;
+   letter-spacing: 0rem;
+   font-size: 1.3rem;
+   padding-left: 1.5rem;
+   border-bottom: 1px solid #ffffff;
+}

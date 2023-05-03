@@ -1,0 +1,20 @@
+.Menu .Color {
+   position: relative;
+   margin-bottom: 5rem;
+}
+
+@keyframes menu-color-slide-in {
+   0% {
+      opacity: 0%;
+      right: 20%;
+   }
+   100% {
+      opacity: 100%;
+      right: 0%;
+   }
+}
+.Menu .Color.in {
+   animation-name: menu-color-slide-in;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}

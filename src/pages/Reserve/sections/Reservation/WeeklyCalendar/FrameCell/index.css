@@ -1,0 +1,17 @@
+.Reserve .WeeklyCalendar .DayListOfWeek .FrameCell {
+   padding-left: 0.5rem;
+   position: relative;
+}
+
+.Reserve .WeeklyCalendar .DayListOfWeek .FrameCell:hover {
+   cursor: pointer;
+}
+
+.Reserve .WeeklyCalendar .DayListOfWeek .FrameCell.grayouted {
+   background-color: rgb(44, 55, 66);
+   color: #999;
+}
+
+.Reserve .WeeklyCalendar .DayListOfWeek .FrameCell.grayouted:hover {
+   cursor: default;
+}

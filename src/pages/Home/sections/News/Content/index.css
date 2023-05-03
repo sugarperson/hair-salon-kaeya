@@ -1,0 +1,26 @@
+.List {
+   width: 100%;
+}
+
+.List .header{
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+
+.List .list{
+   list-style: none;
+   border-top: 1px solid #ffffff;
+   padding-left: 0;
+}
+
+.List .list-item{
+   padding: .5rem 0;
+   letter-spacing: 0;
+   font-size: 1.4rem;
+   border-bottom: 1px solid #ffffff;
+}
+
+.List .list-item .timestamp{
+   display: block;
+   font-size: 0.9rem;
+}

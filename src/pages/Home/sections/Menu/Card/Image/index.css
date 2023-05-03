@@ -1,0 +1,24 @@
+.Menu .CardImage {
+   max-width: 75%;
+   margin: 0 auto;
+}
+
+@keyframes menu-image-stretching {
+   0% {
+      width: 0%;
+   }
+   100% {
+      width: 100%;
+   }
+}
+
+.Menu .CardImage .menu_image {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+   object-fit: contain;
+   border-radius: 5px;
+   animation-name: menu-image-stretching;
+   animation-duration: 1.2s;
+   animation-timing-function: ease;
+}
